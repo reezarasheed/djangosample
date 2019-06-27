@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+
+<body>
+
+<table width="100%">
+
+     <tr>
+        <td colspan="2" bgcolor="blue">
+
+            <h1> My App </h1>
+        </td>
+
+    </tr>
+
+    <tr  bgcolor="gray">
+        <td>
+        </td>
+         <td align="right">
+                <a href="dfgdh">Home</a>
+                <a href="result">Result</a>
+                <a href="contactus">Contact Us</a>
+        </td>
+    </tr>
+
+     <tr>
+        <td colspan="2">
+            {% block form %}
+               test
+            {% endblock %}
+        </td>
+
+    </tr>
+
+
+      <tr  bgcolor="yellow">
+        <td colspan="2">
+            footer
+        </td>
+
+    </tr>
+
+
+</table>
+
+
+
+</body>
+
+</html>
+
